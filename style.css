@@ -1,0 +1,169 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f4f6f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.header {
+    background: linear-gradient(135deg, #007bff, #0056d2);
+    color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #007bff;
+}
+
+.log-form {
+    background: #fff;
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.log-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.log-form input, .log-form select, .log-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.log-form input:focus, .log-form textarea:focus, .log-form select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.btn-submit {
+    margin-top: 15px;
+    background: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-submit:hover {
+    background: #005dc1;
+}
+
+/* Table */
+.table-container {
+    overflow-x: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+th {
+    background: #007bff;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+tr:hover {
+    background: #f2f8ff;
+}
+
+a.btn-view, a.btn-edit, a.btn-delete {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    color: white;
+    font-size: 13px;
+}
+
+.btn-view { background: #17a2b8; }
+.btn-edit { background: #ffc107; color: #333; }
+.btn-delete { background: #dc3545; }
+
+.btn-view:hover { background: #138496; }
+.btn-edit:hover { background: #e0a800; }
+.btn-delete:hover { background: #c82333; }
+
+.required {
+    color: red;
+}
+
+#jamKerja {
+    display: none;
+}
+.card {
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    margin-top: 25px;
+}
+
+.preview-img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+.btn-back {
+    display: inline-block;
+    background: #6c757d;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.btn-back:hover {
+    background: #5a6268;
+}
+
